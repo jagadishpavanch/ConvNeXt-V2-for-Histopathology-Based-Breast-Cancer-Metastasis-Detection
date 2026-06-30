@@ -7,8 +7,6 @@
 
 ## Overview
 
-## Overview
-
 Breast cancer is one of the leading causes of cancer-related mortality worldwide, making early and accurate detection of lymph node metastasis critical for effective treatment planning. This project presents a deep learning framework for automated metastasis detection from histopathology image patches using the PatchCamelyon (PCam) dataset.
 
 The proposed approach employs a **ConvNeXt V2 backbone** combined with a **custom multi-layer classification head** designed for binary metastasis classification. To evaluate its effectiveness, the model was benchmarked against three strong attention-enhanced CNN baselines: **ResNet-50 + CBAM**, **DenseNet-121 + CBAM**, and **EfficientNet-B3 + CBAM**.

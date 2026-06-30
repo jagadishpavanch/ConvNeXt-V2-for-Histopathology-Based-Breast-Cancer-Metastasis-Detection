@@ -1,0 +1,11 @@
+=== FINAL TEST RESULTS ===
+Optimized Threshold: 0.30499999999999994
+Accuracy:  0.8932
+Precision: 0.8990
+Recall:    0.8859
+F1 Score:  0.8924
+AUC:       0.9610
+
+Confusion Matrix:
+[[14761  1630]
+ [ 1868 14509]]

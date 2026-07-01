@@ -173,6 +173,11 @@ Grad-CAM was used to inspect what regions the models focused on during predictio
 * **False-negative reduction:** about **47%** compared with ResNet-50 + CBAM
 
 
+
+<img width="859" height="392" alt="image" src="https://github.com/user-attachments/assets/17ed4d92-0493-4c02-a143-eaa218daef0d" />
+
+
+
 ### Interpretation
 
 Grad-CAM visualizations show that ConvNeXt V2 produces more compact, nucleus-centered activations, while attention-based baselines often spread attention into background or stromal areas. This aligns with the quantitative improvement in false-negative reduction.
@@ -253,6 +258,25 @@ Possible next steps include:
 ## Citation 
 
 This repository is based on the study **“Prediction of Metastasis in Breast Cancer Using Deep Learning”**. The paper reports that ConvNeXt V2 with Custom head outperformed CBAM-augmented ResNet-50, DenseNet-121, and EfficientNet-B3 on the PCam dataset, achieving the highest AUC and substantially reducing false negatives.
+
+📚 Bibliography & References
+For a complete review of the methodology and cited literature, please refer to the full study documentation.
+
+J. Kim et al., "Global patterns and trends in breast cancer incidence and mortality across 185 countries," Nature Medicine, 2025.
+
+M. S. Reza and J. Ma, "Imbalanced histopathological breast cancer image classification with convolutional neural network," Proc. 14th IEEE Int. Conf. Signal Processing, 2018.
+
+B. S. Veeling et al., "Rotation equivariant CNNs for digital pathology," Proc. MICCAI, 2018.
+
+G. Huang et al., "Densely connected convolutional networks," Proc. CVPR, 2017.
+
+Y. Celik et al., "Automated invasive ductal carcinoma detection based on deep transfer learning with whole-slide images," Pattern Recognition Letters, 2020.
+
+S. Woo et al., "ConvNeXt V2: Co-designing and scaling convnets with masked autoencoders," Proc. CVPR, 2023.
+
+S. Woo et al., "CBAM: Convolutional block attention module," Proc. ECCV, 2018.
+
+I. Kandel and M. Castelli, "A novel architecture to classify histopathology images using convolutional neural networks," Applied Sciences, 2020.
 
 ## License
 
